@@ -45,12 +45,12 @@
                         <li><a class="nav-link scrollto  px-4 " href="index.html">Menu</a></li>
                         </li>
                         <li class="nav-item ">
-                        <li><a class="nav-link scrollto   px-4 " href="blog.html">Blog</a></li>
+                        <li><a class="nav-link scrollto active  px-4 " href="blog.html">Blog</a></li>
                         </li>
 
 
                         <li class="nav-item">
-                        <li><a class="nav-link scrollto active px-4" href="contact.html">Contact Us</a></li>
+                        <li><a class="nav-link scrollto px-4" href="contact.html">Contact Us</a></li>
                         </li>
                     </ul>
                     <div class="d-flex ">
@@ -73,40 +73,84 @@
 
 
 
-    <!-- contact foam  -->
+    <!-- cart foam  -->
 
-    <div class="foam d-flex justify-content-center flex-wrap">
-        <div class="contact-form-wrapper d-flex justify-content-center">
-            <form action="#" class="contact-form">
-                <h5 class="title">Get in touch</h5>
-                <p class="description">We are here for you! How can we help?
-                </p>
-                <div>
-                    <input type="text" class="form-control rounded border-white mb-3 form-input" id="name"
-                        placeholder="Name" required>
+    <main id="cart" >
+      <h1>Your Cart</h1><br><br>
+      <div class="container-fluid">
+        <div class="row align-items-start">
+          <div class="col-12 col-sm-8 items">
+            <!--1-->
+            <div class="cartItem row align-items-start">
+              <div class="col-3 mb-2">
+                <img class="" src="pizamenu.jpg" alt="art image" style="height: 100px; width: 100px;">
+              </div>
+              <div class="col-5 mb-2">
+                <h6 class="">Pepperoni Pizza</h6>
+                <p class="pl-1 mb-0">7inch</p>
+                <p class="pl-1 mb-0">Double cheese</p>
+              </div>
+              <div class="col-2">
+                <p class="cartItemQuantity p-1 text-center">1</p>
+              </div>
+              <div class="col-2">
+                <p id="cartItem1Price">£16</p>
+              </div>
+            </div>
+            <hr>
+            <!--2-->
+            <div class="cartItem row align-items-start">
+                <div class="col-3 mb-2">
+                  <img class="" src="pizamenu.jpg" alt="art image" style="height: 100px; width: 100px;">
                 </div>
-                <div>
-                    <input type="email" class="form-control rounded border-white mb-3 form-input" placeholder="Email"
-                        required>
+                <div class="col-5 mb-2">
+                  <h6 class="">Pepperoni Pizza</h6>
+                  <p class="pl-1 mb-0">7inch</p>
+                  <p class="pl-1 mb-0">Double cheese</p>
                 </div>
-                <div>
-                    <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5"
-                        cols="30" placeholder="Message" required></textarea>
+                <div class="col-2">
+                  <p class="cartItemQuantity p-1 text-center">1</p>
                 </div>
-                <div class="submit-button-wrapper">
-                    <input type="submit" value="Send">
+                <div class="col-2">
+                  <p id="cartItem1Price">£16</p>
                 </div>
-            </form>
+              </div>
+            <hr>
+          </div>
+          <div class="col-12 col-sm-4 p-3 proceed form">
+            <div class="row m-0">
+              <div class="col-sm-8 p-0">
+                <h6>Subtotal</h6>
+              </div>
+              <div class="col-sm-4 p-0">
+                <p id="subtotal">$132.00</p>
+              </div>
+            </div>
+            <div class="row m-0">
+              <div class="col-sm-8 p-0 ">
+                <h6>Tax</h6>
+              </div>
+              <div class="col-sm-4 p-0">
+                <p id="tax">$6.40</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row mx-0 mb-2">
+              <div class="col-sm-8 p-0 d-inline">
+                <h5>Total</h5>
+              </div>
+              <div class="col-sm-4 p-0">
+                <p id="total">$138.40</p>
+              </div>
+            </div>
+            <a href="#"><button id="btn-checkout" class="shopnow"><span>Checkout</span></button></a>
+          </div>
         </div>
-        <div class="contact-card" style="height: 450px; width: 400px; margin-top: 8%; background-color: white; ">
-            <img src="contact.png" style="height: 300px; width: 300px; margin-left: 8%; ">
-
-            <p><i class="bi bi-telephone"></i>&nbsp;+923000000000</p>
-            <p><i class="bi bi-geo-alt"></i>&nbsp;Address</p>
-            <p><i class="bi bi-envelope"></i>&nbsp;foodelicious@gmail.com</p>
-
-        </div>
-    </div>
+      </div>
+      </div>
+    </main>
+    <footer class="container">
+    </footer><br><br><br><br>
 
 
 
